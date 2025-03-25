@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 60%;
+    height: 200px;
+    margin: 90px auto;
+    background-color: white;
+}
+
+.container .styled {
+    text-align: center;
+    margin-top: 20px 0;
+    background-color: yellow;
+    color: red;
+}

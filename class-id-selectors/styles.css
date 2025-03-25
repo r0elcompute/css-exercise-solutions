@@ -1,0 +1,41 @@
+* {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.one {
+    background-color: rgb(255, 182, 193);
+    font-size: 18px;
+}
+
+#two {
+    color: rgb(0, 0, 200);
+    font-size: 32px;
+}
+
+.three {
+    background-color: rgb(255, 192, 203);
+    font-size: 28px; 
+}
+
+#four {
+    font-weight: bold;
+    background-color: rgb(50, 205, 50);
+    font-size: 25px; 
+}
+
+.five {
+    background-color: rgb(255, 182, 193);
+}

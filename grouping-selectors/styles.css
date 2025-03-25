@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 200px auto;
+    width: 40%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    border: 2px solid black
+}
+
+.button2 {
+    background-color: yellow;
+    font-size: 40px;
+    color: black;
+    border: 2px solid black;
+}
