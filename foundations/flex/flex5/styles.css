@@ -1,0 +1,147 @@
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    height: 20rem;
+    border-radius: 0.8rem;
+    box-shadow: 2px 1px 1px 1px;
+    overflow-y: scroll;
+    /* animation */
+
+    animation: move 6s ease-in-out infinite;
+
+    /*  
+    animation-name: move;
+    animation-play-state: play;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    */
+}
+
+.container:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.CTA {
+    padding: 2rem;
+}
+
+.CTA .text {
+    padding: 2rem;
+    word-spacing: 0.2rem;
+}
+
+.line-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exclamation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: grey;
+    background-color: lightgrey;
+}
+
+.x:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    background-color: lightblue;
+    transition: background-color 0.3 ease-in-out;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.continue {
+    color: #fff;
+    background-color: blue;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    width: 6rem;
+}
+
+.continue:hover {
+    background-color: orangered;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cancel {
+    color: blue;
+    width: 6rem;
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
+
+/* Animation */
+
+@keyframes move {
+    0% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
