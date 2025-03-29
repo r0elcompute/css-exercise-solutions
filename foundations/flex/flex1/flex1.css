@@ -1,0 +1,28 @@
+body {
+background-color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+width: 500px;
+height: 200px;
+border: 3px solid indigo;
+background-color: tomato;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+background-color: #fff;
+color: #000;
+width: 100px;
+height: 70px;
+border: 2px solid #333;
+display: flex;
+justify-content: center;
+align-items: center;
+}
