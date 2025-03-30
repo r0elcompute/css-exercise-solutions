@@ -1,0 +1,123 @@
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5rem;
+    list-style-type: none;
+}
+
+.container .navbar ul li a {
+    text-decoration: none;
+    color: #ccd53e;
+}
+
+.center-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 25rem;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container input {
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: 10em;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #0a0908;
+}
+
+.input-container input:hover {
+    outline: none;
+    border-color: #e5e5e5;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #ccd53e;
+    animation: moveup-down 5s ease-in-out 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttons button {
+    background-color: #fcf6bd;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #f9c80e;
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ccd53e;
+}
+
+@keyframes moveup-down {
+    0% {
+        transform: translateY(2rem);
+    }
+    100% {
+        transform: translateY(-2rem);
+    }
+}
