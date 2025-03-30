@@ -1,0 +1,45 @@
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    background-color: khaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.container ul li {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: blue;
+}
+
+.container ul li:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.container #logo {
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    background-color: #fff;
+}
