@@ -1,0 +1,97 @@
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.container .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: purple;
+    min-height: 4rem;
+}
+
+.container .header div {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: sans;
+    color: #fff;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.middle .navbar {
+    background-color: blue;
+    width: 30rem;
+}
+.middle .navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    height: 80vh;
+    gap: 1rem;
+}
+
+.middle .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.middle .card-container {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
+    align-items: center;
+    height: 60vh;
+    gap: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-container div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    width: 20rem;
+    height: 15rem;
+    background-color: #E7E5DF;
+    font-size: 0.8rem;
+    border-radius: 2em;
+    padding: 0.7rem;
+    box-shadow: 2px 1px 2px 1px;
+    color: #0A0908;
+}
+
+.footer {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E5DF;
+    width: 100%;
+    min-height: 3rem;
+}
+
+.footer small {
+    font-size: 0.9rem;
+    color: purple;
+}
+
