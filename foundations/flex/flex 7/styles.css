@@ -62,7 +62,7 @@ body {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     height: 60vh;
     gap: 3rem;
@@ -100,3 +100,46 @@ body {
     color: purple;
 }
 
+
+/* media queries */
+@media (max-width: 768px)  {
+
+    .container .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        overflow-x: scroll;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-container div {
+        width: 23rem;
+        height: 17rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+
+/* to be updated later */
+/*  
+@media (max-width: 1080px) {
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+} 
+     */
