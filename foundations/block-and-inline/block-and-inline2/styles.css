@@ -1,0 +1,43 @@
+body {
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    height: 27rem;
+}
+
+.card > * {
+    margin: 2rem;
+}
+
+.title {
+    background-color: #8ecae6;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.content {
+    background-color: #8ecae6;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.button-container {
+    background-color: #8ecae6;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+button {
+    display: block;
+    position: relative;
+    margin: 0.1rem auto;
+    border: none;
+}
