@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(50, 100, 200);
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    transform: scale(2.1);
+    transition: 3s ease-in-out;
+}
